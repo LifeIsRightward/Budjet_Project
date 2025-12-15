@@ -20,5 +20,5 @@ from django.urls import path, include  # include 추가!
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('blog.urls')),  # 이 줄 추가!
+    path('api/', include('Budget_record.urls')),  # 이 줄 추가!
 ]
